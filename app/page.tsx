@@ -17,7 +17,7 @@ export default function Home() {
     <head>
       <title>AVSTI&reg;</title>
     </head>
-    <div id="header"className="">
+    <div id="header">
       <header className='flex items-center justify-between px-36 py-5 max-2xl:px-24 max-xl:px-20 max-lg:px-12 max-sm:px-6 bg-gray-300'>
         <div>
           <Image src={logo} alt='logo' width="72" height="72"/>
