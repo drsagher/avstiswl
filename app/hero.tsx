@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import hero from 'public/img/avsti.png'
+import hero from '/public/img/avsti.png'
 import {Popover, PopoverContent, PopoverTrigger} from "@/components/ui/popover";
 export default function Hero() {
   return (
