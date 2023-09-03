@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import Hero2 from '../public/img/avsti.png'
+import avsti from '../public/img/avsti.png'
 import {Popover, PopoverContent, PopoverTrigger} from "@/components/ui/popover";
 export default function Hero() {
   return (
-    <>
-     <section id='hero' className='flex items-center justify-center max-lg:block text-center mt-20 round'>
+    <div>
+     <section id='hero-img' className='flex items-center justify-center max-lg:block text-center mt-20 round'>
     <div className='max-sm:px-6 max-xl:px-20  max-2xl:px-24 max-lg:text-center'>
       <h1 className='max-2xl:text-xl text-3xl uppercase font-bold leading-normal'>
           Allied Vocational Skills Training Institute&reg;
@@ -24,8 +24,8 @@ export default function Hero() {
 
     </section>
         <div className='flex justify-center max-sm:px-6 max-xl:px-20  max-2xl:px-24 max-lg:text-center mt-8'>
-            <Image src={Hero2} alt='hero' className='max-lg:flex items-center justify-end max-lg:mt-10 max-lg:w-full' width={800} height={600}/>
+            <Image src={avsti} alt='hero' className='max-lg:flex items-center justify-end max-lg:mt-10 max-lg:w-full' width={800} height={600}/>
         </div>
-    </>
+    </div>
 )
 }

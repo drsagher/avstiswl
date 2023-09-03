@@ -3,7 +3,7 @@ import Service from "@/app/service";
 import About from "@/app/about";
 import Footer from "@/app/footer";
 import Image from "next/image";
-import logo from "@/public/img/logo.png";
+import logo from "../public/img/logo.png";
 import Link from "next/link";
 import {
   Popover,
@@ -24,7 +24,7 @@ export default function Home() {
         </div>
         <nav className='flex items-center'>
           <div className='max-lg:hidden '>
-            <Link href="#hero" className=' text-md px-5 hover:text-green-500 text-blue-500'>Introduction</Link>
+            <Link href="#hero-img" className=' text-md px-5 hover:text-green-500 text-blue-500'>Introduction</Link>
             <Link href="#skills" className=' text-md font-medium px-5 hover:text-green-500 text-blue-500'>Skills</Link>
             <Link href="#contact" className=' text-md font-medium px-5 hover:text-green-500 text-blue-500'>Contact</Link>
           </div>

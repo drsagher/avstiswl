@@ -4,7 +4,7 @@ import logo from '..//public/img/logo.png'
 
 export default function Footer() {
   return (
-    <>
+    <div>
  <section id="contact" className='px-36 py-5 max-2xl:px-24 max-xl:px-20 max-lg:px-12 max-sm:px-6 mt-36 max-lg:mt-28 max-sm:mt-16 bg-blue-400'>
       <div className='flex justify-around  max-lg:block'>
       <div className='max-lg:flex items-center justify-center'>
@@ -15,7 +15,7 @@ export default function Footer() {
       <div className='mt-5'>
         <h1 className='text-2xl uppercase font-bold text-white'>quick link</h1>
         <div className='mt-1'>
-       <Link href="#hero" className='uppercase text-sm font-medium hover:text-blue-500 block text-white leading-10'>Introduction</Link>
+       <Link href="#hero-img" className='uppercase text-sm font-medium hover:text-blue-500 block text-white leading-10'>Introduction</Link>
        <Link href="#skills" className='uppercase text-sm font-medium hover:text-blue-500 block text-white leading-10'>Skills</Link>
        <Link href="#contact" className='uppercase text-sm font-medium hover:text-blue-500 block text-white leading-10'>Contact</Link>
       </div>
@@ -58,6 +58,6 @@ export default function Footer() {
         <p className='text-sm text-white font-medium uppercase max-lg:text-center'>&copy;AVSTI&reg;-All rights reserved-2023</p>
       </div>
     </section>
-    </>
+    </div>
 )
 }
