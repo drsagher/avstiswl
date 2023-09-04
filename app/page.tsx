@@ -9,7 +9,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover"
-import avsti from "../public/img/avsti.png";
+import avsti from "../public/img/avsti.gif";
 
 export default function Home() {
   return (
