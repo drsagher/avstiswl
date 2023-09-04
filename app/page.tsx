@@ -23,14 +23,14 @@ export default function Home() {
           <Image src={logo} alt='logo' width="72" height="72"/>
         </div>
         <nav className='flex items-center'>
-          <div className='max-lg:hidden '>
-            <Link href="#hero-img" className=' text-md px-5 hover:text-green-500 text-blue-500'>Introduction</Link>
-            <Link href="#skills" className=' text-md font-medium px-5 hover:text-green-500 text-blue-500'>Skills</Link>
-            <Link href="#contact" className=' text-md font-medium px-5 hover:text-green-500 text-blue-500'>Contact</Link>
+          <div className=''>
+            <Link href="#hero-img" className='hover:text-green-500 text-blue-500'>About Us</Link>
+            <Link href="#skills" className=' text-md font-medium px-3 hover:text-green-500 text-blue-500'>Skills</Link>
+            <Link href="#contact" className=' text-md font-medium px-3 hover:text-green-500 text-blue-500'>Contact</Link>
           </div>
           <Popover>
             <PopoverTrigger>
-              <button className="text-white rounded-xl bg-red-600 px-4 py-2 hover:bg-green-500">Donate</button>
+              <button className="text-white rounded-3xl bg-red-600 px-4 py-2 hover:bg-green-500">Donate Now</button>
             </PopoverTrigger>
             <PopoverContent>
               <div className="flex flex-col gap-4 items-center">
@@ -43,8 +43,8 @@ export default function Home() {
                   <p>SWIFT Code: ABPAPKKA</p>
                 </div>
                 <div className="flex-col items-start justify-start">
-                  <h2 className="bg-blue-200 font-bold">Payonerr Bank Detail</h2>
-                  <p>Bank Detail: USA XX-7066</p>
+                  <h2 className="bg-blue-200 font-bold">Payoneer Bank Detail</h2>
+                  <p>Bank Detail: USD XX-7066</p>
                   <p>Bank Name: Citibank</p>
                   <p>Address: 111 Wall Street New York, NY 10043 USA</p>
                   <p>Swift Code: CITIUS33</p>
@@ -66,7 +66,7 @@ export default function Home() {
             <p className='max-2xl:text-sm text-lg font-medium uppercase my-5 text-gray-500'>Centre for empowerment and development of bounded women</p>
             <Popover>
               <PopoverTrigger>
-                <div className='bg-blue-500 w-36 h-10 rounded-md text-white uppercase hover:bg-blue-600'>About AVSTI&reg;</div>
+                <button className='bg-blue-500 w-36 h-10 rounded-md text-white uppercase hover:bg-blue-600'>About AVSTI&reg;</button>
               </PopoverTrigger>
               <PopoverContent className="flex w-96">
                 <p className="text-sm font-sm">

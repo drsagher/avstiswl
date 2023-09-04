@@ -15,7 +15,7 @@ export default function Footer() {
       <div className='mt-5'>
         <h1 className='text-2xl uppercase font-bold text-white'>quick link</h1>
         <div className='mt-1'>
-       <Link href="#hero-img" className='uppercase text-sm font-medium hover:text-blue-500 block text-white leading-10'>Introduction</Link>
+       <Link href="#hero-img" className='uppercase text-sm font-medium hover:text-blue-500 block text-white leading-10'>About Us</Link>
        <Link href="#skills" className='uppercase text-sm font-medium hover:text-blue-500 block text-white leading-10'>Skills</Link>
        <Link href="#contact" className='uppercase text-sm font-medium hover:text-blue-500 block text-white leading-10'>Contact</Link>
       </div>
