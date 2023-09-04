@@ -4,7 +4,7 @@ export default function Service() {
   return (
     <div id="skills" className="">
       <h2 className="flex items-center justify-center text-center mt-28 text-3xl font-extrabold">Traditional Skills</h2>
-      <div className="flex px-28 sm:flex-col">
+      <div className="flex px-28">
         <div className="flex flex-col w-1/2 p-2 bg-white items-center justify-start text-center mr-28">
           <h1 className="text-xl font-bold p-4">Sewing and Embroidery</h1>
           <p>
