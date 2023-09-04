@@ -3,11 +3,11 @@ import Image from 'next/image'
 export default function Service() {
   return (
     <div id="skills" className="">
-      <h2 className="flex items-center justify-center text-center mt-28 text-3xl font-extrabold">Traditional Skills</h2>
-      <div className="flex px-28">
-        <div className="flex flex-col w-1/2 p-2 bg-white items-center justify-start text-center mr-28">
-          <h1 className="text-xl font-bold p-4">Sewing and Embroidery</h1>
-          <p>
+      <h2 className="text-xl font-bold text-center mt-24 mb-8">Traditional Skills</h2>
+      <div className=" flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center w-auto px-20">
+          <h1 className="text-xl">Sewing and Embroidery</h1>
+          <p className="text-center">
             Sewing and embroidery are two related but distinct skills that
             involve working with fabric and thread to create various types of
             designs and garments. Sewing involves joining fabric pieces
@@ -18,9 +18,9 @@ export default function Service() {
           </p>
         </div>
 
-        <div className="flex flex-col w-1/2 p-2 bg-white items-center justify-start text-center">
-          <h1 className="text-xl font-bold p-4">Beautician</h1>
-          <p>
+        <div className="flex flex-col justify-center items-center w-auto px-20 py-4">
+          <h1 className="text-xl">Beautician</h1>
+          <p className="text-center">
             Beautician courses are designed to teach students the skills and
             knowledge required to work in the beauty industry. These courses
             cover a wide range of topics related to beauty treatments,
@@ -35,11 +35,11 @@ export default function Service() {
         </div>
       </div>
 
-      <h2 className="flex items-center justify-center text-center text-3xl font-extrabold">Global Skills</h2>
-      <div className="flex px-28">
-      <div className="flex flex-col w-1/2 p-2 bg-white items-center justify-start text-center mr-28">
-        <h1 className="text-xl font-bold p-4">Computer Science & IT</h1>
-        <p>
+      <h2 className="text-xl font-bold text-center mt-24 mb-8">Global Skills</h2>
+      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center">
+        <h1 className="text-xl">Computer Science & IT</h1>
+        <p className="text-center">
           CS (Computer Science) and IT (Information Technology) courses are
           designed to teach students about computers, software, and
           information systems. These courses cover a wide range of topics
@@ -50,9 +50,9 @@ export default function Service() {
           the field of computer science and information technology.
         </p>
       </div>
-      <div className="flex flex-col w-1/2 p-2 bg-white items-center justify-start text-center">
-        <h1 className="text-xl font-bold p-4">Freelance</h1>
-        <p>
+      <div className="flex flex-col justify-center items-center py-4">
+        <h1 className="text-xl">Freelance</h1>
+        <p className="text-center">
           Freelance skills are abilities that are in demand in the growing
           gig economy, where professionals work as independent contractors
           or freelancers rather than traditional employees. Freelancers
