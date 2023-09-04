@@ -82,8 +82,9 @@ export default function Home() {
         </div>
       </div>
       {/*end hero*/}
-      <Service/>
       <About/>
+      <Service/>
+
       <Footer/>
     </div>
     </>

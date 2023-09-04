@@ -4,7 +4,7 @@ import {Popover, PopoverContent, PopoverTrigger} from "@/components/ui/popover";
 export default function About() {
   return (
     <>
-    <section id='about' className='flex lg:flex-col justify-center items-center py-8'>
+    <section id='about' className='flex lg:flex-col justify-center items-center py-24 bg-gray-200 mt-14'>
 <div className="flex">
   <div className='flex flex-col justify-center items-center px-14'>
     <h2 className='text-3xl text-blue-600 py-2'>Chief Executive Officer</h2>
